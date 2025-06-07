@@ -11,22 +11,22 @@ The design is implemented in Verilog and includes test benches for verification,
 
 ```plaintext
 ├── Constraint
-│   └── Top.xdc                # Constraints file for FPGA implementation
+│   └── Top.xdc                       # Constraints file for FPGA implementation
 ├── HDL
 │   ├── Previously_Developed
-│   │   ├── dual_port_ram.v    # Dual-port RAM module
+│   │   ├── dual_port_ram.v           # Dual-port RAM module
 │   │   ├── MatrixVectorMultiplier.v  # Matrix-Vector Multiplier module
-│   │   ├── TMVP2.v            # TMVP2 module for polynomial multiplication
-│   │   ├── TMVP2_main.v       # Main module for TMVP2
-│   │   └── Top.v              # Top-level module
+│   │   ├── TMVP2.v                   # TMVP2 module for polynomial multiplication
+│   │   ├── TMVP2_main.v              # Main module for TMVP2
+│   │   └── Top.v                     # Top-level module
 │   └── Memory
-│       └── ram.v              # RAM block for memory management
+│       └── ram.v                     # RAM block for memory management
 ├── Verification
 │   ├── Final_Verification
 │   ├── Main_Verification
 │   ├── Multiplier_Verification
 │   └── TMVPV2_Verification
-├── LICENSE                # License file
+├── LICENSE                           # License file
 └── README.md
 ```
 
@@ -42,7 +42,7 @@ The design is implemented in Verilog and includes test benches for verification,
 - **Memory/ram.v**: Verilog code for the memory block used for storing values during polynomial multiplication.
 - **Verification**:
   - **Final_Verification**, **Main_Verification**, **Multiplier_Verification**, and **TMVPV2_Verification**: Verification folders containing files and test benches to cross-check the Verilog hardware implementation with MATLAB simulation results.
-  - **LICENSE**: The license governing the use of the source code.
+- **LICENSE**: The license governing the use of the source code.
 
 ## License
 
