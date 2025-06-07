@@ -25,8 +25,8 @@ The design is implemented in Verilog and includes test benches for verification,
 │   ├── Final_Verification
 │   ├── Main_Verification
 │   ├── Multiplier_Verification
-│   ├── TMVPV2_Verification
-│   └── LICENSE                # License file
+│   └── TMVPV2_Verification
+├── LICENSE                # License file
 └── README.md
 ```
 
