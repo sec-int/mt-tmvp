@@ -1,4 +1,4 @@
--- -- This repository is moved to https://github.com/bi-tud-sds/mt-tmvp --
+-- This repository is moved to https://github.com/bi-tud-sds/mt-tmvp --
 
 # MT-TMVP: Modular Tiled TMVP-based Polynomial Multiplication for Post-Quantum Cryptography on FPGAs
 
